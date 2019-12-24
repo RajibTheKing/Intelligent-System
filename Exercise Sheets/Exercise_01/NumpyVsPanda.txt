@@ -1,0 +1,19 @@
+What is the difference between Numpy and Panda?
+
+Numpy:
+--------
+NumPy is a Python package which stands for ‘Numerical Python’. 
+It is the core library for scientific computing, which contains a powerful n-dimensional array object.
+Provide tools for integrating C, C++ etc. It is also useful in linear algebra, random number capability etc. 
+NumPy array can also be used as an efficient multi-dimensional container for generic data.
+
+Panda:
+-------
+
+Pandas is one of the most widely used python libraries in data science. 
+It provides high-performance, easy to use structures and data analysis tools.
+Unlike NumPy library which provides objects for multi-dimensional arrays, Pandas provides 
+in-memory 2d table object called Dataframe. It is like a spreadsheet with column names and row labels.
+
+Hence, with 2d tables, pandas is capable of providing many additional 
+functionalities like creating pivot tables, computing columns based on other columns and plotting graphs.

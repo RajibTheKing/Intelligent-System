@@ -1,0 +1,209 @@
+PS D:\WinterSemester-2019-20\IntelligentSystem> python.exe --version
+Python 3.8.0
+PS D:\WinterSemester-2019-20\IntelligentSystem> pip install scikit-learn
+Collecting scikit-learn
+  Using cached https://files.pythonhosted.org/packages/1e/ce/9d8c88e68af0a5b5c5d78d8d2b7bcadfd45e1d6afc863ccb9aee30765b06/scikit-learn-0.21.3.tar.gz
+Requirement already satisfied: numpy>=1.11.0 in c:\users\rajib\appdata\local\programs\python\python38\lib\site-packages (from scikit-learn) (1.17.3)
+Collecting scipy>=0.17.0
+  Using cached https://files.pythonhosted.org/packages/ee/5b/5afcd1c46f97b3c2ac3489dbc95d6ca28eacf8e3634e51f495da68d97f0f/scipy-1.3.1.tar.gz
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+    Preparing wheel metadata ... error
+    ERROR: Command errored out with exit status 1:
+     command: 'c:\users\rajib\appdata\local\programs\python\python38\python.exe' 'c:\users\rajib\appdata\local\programs\python\python38\lib\site-packages\pip\_vendor\pep517\_in_process.py' prepare_metadata_for_build_wheel 'C:\Users\rajib\AppData\Local\Temp\tmpca308ui1'
+         cwd: C:\Users\rajib\AppData\Local\Temp\pip-install-i3lhdbze\scipy
+    Complete output (192 lines):
+    lapack_opt_info:
+    lapack_mkl_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries mkl_rt not found in ['c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\lib', 'C:\\', 'c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\libs']
+      NOT AVAILABLE
+    
+    openblas_lapack_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries openblas not found in ['c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\lib', 'C:\\', 'c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\libs']
+    get_default_fcompiler: matching types: '['gnu', 'intelv', 'absoft', 'compaqv', 'intelev', 'gnu95', 'g95', 'intelvem', 'intelem', 'flang']'
+    customize GnuFCompiler
+    Could not locate executable g77
+    Could not locate executable f77
+    customize IntelVisualFCompiler
+    Could not locate executable ifort
+    Could not locate executable ifl
+    customize AbsoftFCompiler
+    Could not locate executable f90
+    customize CompaqVisualFCompiler
+    Could not locate executable DF
+    customize IntelItaniumVisualFCompiler
+    Could not locate executable efl
+    customize Gnu95FCompiler
+    Could not locate executable gfortran
+    Could not locate executable f95
+    customize G95FCompiler
+    Could not locate executable g95
+    customize IntelEM64VisualFCompiler
+    customize IntelEM64TFCompiler
+    Could not locate executable efort
+    Could not locate executable efc
+    customize PGroupFlangCompiler
+    Could not locate executable flang
+    don't know how to compile Fortran code on platform 'nt'
+      NOT AVAILABLE
+    
+    openblas_clapack_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries openblas,lapack not found in ['c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\lib', 'C:\\', 'c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\libs']
+      NOT AVAILABLE
+    
+    atlas_3_10_threads_info:
+    Setting PTATLAS=ATLAS
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas,tatlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas,tatlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries tatlas,tatlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+      NOT AVAILABLE
+    
+    atlas_3_10_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas,satlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas,satlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries satlas,satlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    <class 'numpy.distutils.system_info.atlas_3_10_info'>
+      NOT AVAILABLE
+    
+    atlas_threads_info:
+    Setting PTATLAS=ATLAS
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    <class 'numpy.distutils.system_info.atlas_threads_info'>
+      NOT AVAILABLE
+    
+    atlas_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\lib
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in C:\
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries f77blas,cblas,atlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack_atlas not found in c:\users\rajib\appdata\local\programs\python\python38\libs
+    <class 'numpy.distutils.system_info.atlas_info'>
+      NOT AVAILABLE
+    
+    lapack_info:
+    No module named 'numpy.distutils._msvccompiler' in numpy.distutils; trying from distutils
+    customize MSVCCompiler
+      libraries lapack not found in ['c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\lib', 'C:\\', 'c:\\users\\rajib\\appdata\\local\\programs\\python\\python38\\libs']
+      NOT AVAILABLE
+    
+    lapack_src_info:
+      NOT AVAILABLE
+    
+      NOT AVAILABLE
+    
+    setup.py:386: UserWarning: Unrecognized setuptools command ('dist_info --egg-base C:\Users\rajib\AppData\Local\Temp\pip-modern-metadata-yraoqs5j'), proceeding with generating Cython sources and expanding templates
+      warnings.warn("Unrecognized setuptools command ('{}'), proceeding with "
+    Running from scipy source directory.
+    C:\Users\rajib\AppData\Local\Temp\pip-build-env-nnd90ddx\overlay\Lib\site-packages\numpy\distutils\system_info.py:624: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      self.calc_info()
+    C:\Users\rajib\AppData\Local\Temp\pip-build-env-nnd90ddx\overlay\Lib\site-packages\numpy\distutils\system_info.py:624: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [lapack]) or by setting
+        the LAPACK environment variable.
+      self.calc_info()
+    C:\Users\rajib\AppData\Local\Temp\pip-build-env-nnd90ddx\overlay\Lib\site-packages\numpy\distutils\system_info.py:624: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+        the LAPACK_SRC environment variable.
+      self.calc_info()
+    Traceback (most recent call last):
+      File "c:\users\rajib\appdata\local\programs\python\python38\lib\site-packages\pip\_vendor\pep517\_in_process.py", line 257, in <module>
+        main()
+      File "c:\users\rajib\appdata\local\programs\python\python38\lib\site-packages\pip\_vendor\pep517\_in_process.py", line 240, in main
+        json_out['return_val'] = hook(**hook_input['kwargs'])
+      File "c:\users\rajib\appdata\local\programs\python\python38\lib\site-packages\pip\_vendor\pep517\_in_process.py", line 110, in prepare_metadata_for_build_wheel
+        return hook(metadata_directory, config_settings)
+      File "C:\Users\rajib\AppData\Local\Temp\pip-build-env-nnd90ddx\overlay\Lib\site-packages\setuptools\build_meta.py", line 156, in prepare_metadata_for_build_wheel
+        self.run_setup()
+      File "C:\Users\rajib\AppData\Local\Temp\pip-build-env-nnd90ddx\overlay\Lib\site-packages\setuptools\build_meta.py", line 236, in run_setup
+        super(_BuildMetaLegacyBackend,
+      File "C:\Users\rajib\AppData\Local\Temp\pip-build-env-nnd90ddx\overlay\Lib\site-packages\setuptools\build_meta.py", line 142, in run_setup
+        exec(compile(code, __file__, 'exec'), locals())
+      File "setup.py", line 505, in <module>
+        setup_package()
+      File "setup.py", line 501, in setup_package
+        setup(**metadata)
+      File "C:\Users\rajib\AppData\Local\Temp\pip-build-env-nnd90ddx\overlay\Lib\site-packages\numpy\distutils\core.py", line 135, in setup
+        config = configuration()
+      File "setup.py", line 403, in configuration
+        raise NotFoundError(msg)
+    numpy.distutils.system_info.NotFoundError: No lapack/blas resources found.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'c:\users\rajib\appdata\local\programs\python\python38\python.exe' 'c:\users\rajib\appdata\local\programs\python\python38\lib\site-packages\pip\_vendor\pep517\_in_process.py' prepare_metadata_for_build_wheel 'C:\Users\rajib\AppData\Local\Temp\tmpca308ui1' Check the logs for full command output.
