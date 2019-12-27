@@ -15,6 +15,7 @@
 *.classpath
 *.py~
 *.pyc
+*.ipynb_checkpoints
 
 # Packages #
 ############

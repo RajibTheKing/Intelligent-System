@@ -1,0 +1,28 @@
+Q1: What is the idea of Shape Definition Language(SDL)? 
+A1: The most important information of a Time Series data can be extracted from a rough shape, which is actually limited terms of the Shape Definition Language enough to model it.
+    These represent the different slopes of the time series. Advantageously, the representation can easily be processed by algorithms for symbolic sequences, like Longest Common Subsequence (LCSS).
+
+
+
+Some important Terms:
+
+PAA     -> Piecewise Aggregate Approximation
+           PAA Segment Length = (Tend - Tstart)/ #Segments
+
+PLA     -> Piecewise Linear Approximation
+
+RLE     -> Run Length Encoding
+APAA    -> Adaptive Piecewise Aggregate Approximation
+PCA     -> Principal Component Analysis
+
+
+Q2: What are the advantages and disadvantages in clipping algorithm? 
+A2:
+Advantages:
+     Extreme compression rate (float -> bool)
+     Simple representation (only binary values)
+     Rough patterns can be found easily
+Disatvantage:
+     Very unprecise representation of the signal
+
+
