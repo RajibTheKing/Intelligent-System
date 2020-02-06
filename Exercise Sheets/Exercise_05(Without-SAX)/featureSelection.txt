@@ -1,0 +1,7 @@
+Important terms: 
+
+RG --> Random Generation
+SFG --> Sequential Forward Generation
+SBG --> Sequential Backward Generation
+BG --> Bidirectional Generation
+
